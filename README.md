@@ -1,4 +1,4 @@
-= Neo Ruby Koans
+# Neo Ruby Koans
 
 The Ruby Koans walk you along the path to enlightenment in order to learn Ruby.
 The goal is to learn the Ruby language, syntax, structure, and some common
@@ -20,7 +20,7 @@ Some, however, require you to supply your own answer.  If you see the method +__
 double underscore) listed, it is a hint to you to supply your own code in order to
 make it work correctly.
 
-== Installing Ruby
+## Installing Ruby
 
 If you do not have Ruby setup, please visit http://ruby-lang.org/en/downloads/ for
 operating specific instructions.  In order to run the koans you need +ruby+ and
@@ -67,7 +67,7 @@ Windows is the same thing
     c:\ruby_koans\rake                             # runs the default target :walk_the_path
     c:\ruby_koans\ruby path_to_enlightenment.rb    # simply call the file directly
 
-=== Red, Green, Refactor
+## Red, Green, Refactor
 
 In test-driven development the mantra has always been <em>red, green, refactor</em>.
 Write a failing test and run it (<em>red</em>), make the test pass (<em>green</em>),
@@ -124,7 +124,7 @@ In this case the goal is for you to see that if you pass a value to the +assert+
 method, it will either ensure it is +true+ and continue on, or fail if
 the statement is +false+.
 
-=== Running the Koans automatically
+### Running the Koans automatically
 
 <em>This section is optional.</em>
 
@@ -151,7 +151,7 @@ Install the Ruby gem (library) called +watchr+ and then ask it to
     gem install watchr
     watchr ./koans/koans.watchr
 
-== Inspiration
+## Inspiration
 
 A special thanks to Mike Clark and Ara Howard for inspiring this
 project.  Mike Clark wrote an excellent blog post about learning Ruby
@@ -166,7 +166,7 @@ Mike Clark's post ::  http://www.clarkware.com/cgi/blosxom/2005/03/18
 Meta Koans        ::  http://rubyquiz.com/quiz67.html
 The Little Lisper ::  http://www.amazon.com/Little-LISPer-Third-Daniel-Friedman/dp/0023397632
 
-== Other Resources
+## Other Resources
 
 The Ruby Language               ::  http://ruby-lang.org
 Try Ruby in your browser        ::  http://tryruby.org
@@ -175,14 +175,14 @@ Dave Thomas' introduction to Ruby Programming Ruby (the Pick Axe) ::  http://pra
 
 Brian Marick's fantastic guide for beginners Everyday Scripting with Ruby    ::  http://pragprog.com/titles/bmsft/everyday-scripting-with-ruby
 
-= Other stuff
+# Other stuff
 
 Author         :: Jim Weirich <jim@neo.org>
 Author         :: Joe O'Brien <joe@objo.com>
 Issue Tracker  :: http://www.pivotaltracker.com/projects/48111
 Requires       :: Ruby 1.8.x or later and Rake (any recent version)
 
-= License
+# License
 
 http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
 
